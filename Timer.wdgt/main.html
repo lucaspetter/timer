@@ -1,0 +1,66 @@
+
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="AppleClasses/AppleAnimator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="AppleClasses/AppleButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="AppleClasses/AppleInfoButton.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script type="text/javascript" src="Parts/parts.js" charset="utf-8"></script>
+    <script type="text/javascript" src="localizedStrings.js" charset="utf-8"></script>
+    <script type="text/javascript" src="main.js" charset="utf-8"></script>
+</head>
+<body onload="load();">
+    <div id="front">
+        <img id="frontImg" src="Images/FrontBackground.png" alt="">
+        <input id="textboxHours" class="textboxTime" type="text" name="" value="" placeholder="" maxlength="2">
+        <input id="textboxMinutes" class="textboxTime" type="text" name="" value="" placeholder="" maxlength="2">
+        <input id="textboxSeconds" class="textboxTime" type="text" name="" value="" placeholder="" maxlength="2">
+        <div id="textHours"></div>
+        <div id="textMinutes"></div>
+        <div id="textSeconds"></div>
+        <div id="updateIcon" onclick="widget.openURL('https://www.lucaspetter.com/software/timer');"><span class="fa fa-download"></span></div>
+        <img id="buttonStart" src="Images/StartButton.png" alt="Start" onclick="timerStartStop();">
+        <img id="buttonStop" src="Images/StopButton.png" alt="Stop" onclick="timerStartStop();">
+        <div id="info"></div>
+    </div>
+    <div id="back">
+        <img id="backImg" src="Images/BackBackground.png" alt="">
+        <div id="textTimerTitleVersion"></div>
+        <div id="textLucasPetter"></div>
+        <div id="textLucasPetterLink" onclick="widget.openURL('https://www.lucaspetter.com/');"></div>
+        <div id="textAlertSound"></div>
+        <select id="soundFileMenu" title="Choose a sound to play when the timer finishes." onchange="playAlarmSound('Sounds/' + this.value);">
+            <option value="harmony.wav" selected="selected">Harmony</option>
+            <option value="reveal.wav">Reveal</option>
+            <option value="rooster.wav">Rooster Crow</option>
+            <option value="tibetanbowl.wav">Tibetan Bowl</option>
+            <option value="tvtone.wav">TV Tone</option>
+            <option value="null">(None)</option>
+        </select>
+        <div id="optionAreaSleep" title="Prevents computer from sleeping while timer runs.
+If this is turned off, sleep may interrupt the timer.">
+            <input type="checkbox" name="Checkbox" checked="checked" id="checkboxPreventSleep">
+            <div id="textSleepSetting">Prevent computer sleep</div>
+        </div>
+        <div id="optionAreaNotifications" title="Displays a Notification Center message when timer is done.
+(Mac OS X 10.8 Mountain Lion or later)">
+            <input type="checkbox" name="Checkbox" checked="checked" id="checkboxNotifications">
+            <div id="textNotificationSetting">Notification messages</div>
+        </div>
+        <div id="optionAreaVolume" title="Raises main system audio volume during alert sounds.
+Volume will return to prior level afterwards.
+CAUTION: do not use this while wearing headphones!">
+            <input type="checkbox" name="Checkbox" id="checkboxRaiseVolume">
+            <div id="textRaiseVolume">Raise system volume</div>
+        </div>
+        <div id="optionAreaUpdates" title="Checks for available updates to this widget's software.">
+            <input type="checkbox" name="Checkbox" id="checkboxCheckUpdates" checked="checked">
+            <div id="textCheckUpdates">Update check</div>
+        </div>
+        <div id="done"></div>
+    </div>
+    <div id="alarmSoundArea"></div>
+</body>
+</html>
