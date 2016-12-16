@@ -2,7 +2,7 @@
 
 ![Timer](images/icon/icon-128.png)
 
-A countdown timer for the Mac OS X Dashboard.
+A countdown timer for the macOS Dashboard.
 
 [Download](https://github.com/lucaspetter/timer/releases/latest)
 
@@ -12,7 +12,7 @@ A countdown timer for the Mac OS X Dashboard.
 
 ![Timer running](images/screenshots/timerrunning.png)
 
-Timer is a widget for the Mac OS X Dashboard for alerting after a set amount of time has passed. Just type an amount of time, click Start, and it will begin counting down. When it reaches zero, a sound will play and a notification message will appear in the top-right corner of your screen.
+Timer is a widget for the macOS Dashboard for alerting after a set amount of time has passed. Just type an amount of time, click Start, and it will begin counting down. When it reaches zero, a sound will play and a notification message will appear in the top-right corner of your screen.
 Settings on back side of Timer
 
 
@@ -24,7 +24,7 @@ Settings on back side of Timer
 Hover your mouse pointer over Timer and click the small "i" to flip to the back side, where you can change various settings.
 - Choose the alert sound that plays when the timer finishes. Available sounds are: Harmony, Reveal, Rooster Crow, Tibetan Bowl, TV Tone, or silence.
 - Prevent the computer from sleeping until the timer has finished.
-- A Notification Center message will appear when the timer finishes. (Mac OS X 10.8 or later)
+- A Notification Center message will appear when the timer finishes. (OS X 10.8 or later)
 - Timer can briefly raise the system audio volume level while the alert sound plays, then return it to its previous level. (This is an experimental feature, do not enable it while wearing earphones!)
 - Timer will automatically check for updates to its software.
 
@@ -32,7 +32,7 @@ Hover your mouse pointer over Timer and click the small "i" to flip to the back 
 
 ## Installation
 
-1. If you're running Mac OS X 10.10 Yosemite or later, you may need to turn on Dashboard if it isn't on already. (On Mac OS X 10.9 Mavericks and earlier, the Dashboard is always on.)
+1. If you're running OS X 10.10 Yosemite or later, you may need to turn on Dashboard if it isn't on already. (On OS X 10.9 Mavericks and earlier, the Dashboard is always on.)
 2. Download Timer.zip, then find it on your hard drive and double-click it to open it.
 ![Timer installation ](images/screenshots/installation1.jpg)
 3. Right-click on the Timer widget icon and select "Open" in the menu. (If you don't have a right mouse button, hold the "control" key on the keyboard then click the icon.)
@@ -42,9 +42,9 @@ Hover your mouse pointer over Timer and click the small "i" to flip to the back 
 
 ## Requirements
 
-Timer works on Mac OS X 10.5 Leopard through 10.10 Yosemite.
+Timer works on Mac OS X 10.5 Leopard through macOS 10.12 Sierra.
 
-Mac OS X 10.8 Mountain Lion or later is required for notification messages to be displayed.
+OS X 10.8 Mountain Lion or later is required for notification messages to be displayed.
 
 ## Known issues
 - With the "Raise system volume" setting enabled, the volume will only be raised if the current volume is less than 75%; levels higher than 75% aren't raised further.
