@@ -32,7 +32,7 @@ Hover your mouse pointer over Timer and click the small "i" to flip to the back 
 
 ## Installation
 
-1. If you're running OS X 10.10 Yosemite or later, you may need to turn on Dashboard if it isn't on already. (On OS X 10.9 Mavericks and earlier, the Dashboard is always on.)
+1. If you're running OS X 10.10 Yosemite or later, you may need to [turn on Dashboard](http://osxdaily.com/2018/11/05/enable-dashboard-macos-mojave/) if it isn't on already. (On OS X 10.9 Mavericks and earlier, the Dashboard is always on.)
 2. Download Timer.zip, then find it on your hard drive and double-click it to open it.
 ![Timer installation ](images/screenshots/installation1.jpg)
 3. Right-click on the Timer widget icon and select "Open" in the menu. (If you don't have a right mouse button, hold the "control" key on the keyboard then click the icon.)
@@ -42,7 +42,7 @@ Hover your mouse pointer over Timer and click the small "i" to flip to the back 
 
 ## Requirements
 
-Timer works on Mac OS X 10.5 Leopard through macOS 10.12 Sierra.
+Timer works on Mac OS X 10.5 Leopard through macOS 10.14 Mojave.
 
 OS X 10.8 Mountain Lion or later is required for notification messages to be displayed.
 
